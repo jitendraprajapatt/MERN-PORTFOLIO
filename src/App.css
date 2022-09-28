@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {
@@ -32,7 +33,244 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Header file */
+.actives {
+  border-bottom: 5px solid rgb(67, 225, 67);
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  box-shadow: 0px 0px 0px 0.54px solid gray;
+  background-color: rgba(16, 5, 5, 0.995);
+  font-family: 'Montserrat', sans-serif;
+  color: #ffff;
+
+}
+
+.Navbar .nav-btn {
+  float: right;
+}
+
+.Navbar .right_block {
+  position: absolute;
+  float: left;
+  left: 20px;
+}
+
+.Navbar .right_block h1 {
+  font-family: 'Lucida Sans';
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.Navbar .right_block h1 .logo {
+  text-decoration: none;
+  color: rgb(106, 106, 232);
+}
+
+.Navbar .left_block {
+  display: flex;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.Navbar .left_block .avatar img {
+  border-radius: 100%;
+
+  width: 50px;
+  height: 50px;
+}
+
+.Navbar .left_block ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  color: black;
+  justify-content: space-between;
+}
+
+.Navbar .left_block ul li {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  line-height: 50px;
+  margin: 0px 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+}
+
+.Navbar .left_block ul li:hover {
+  border-bottom: 5px solid rgb(67, 225, 67);
+}
+
+.Navbar .left_block ul li .anchor {
+  text-decoration: none;
+  color: #fff;
+  width: max-content;
+  font-size: large;
+}
+
+
+
+
+
+
+
+/* Home style */
+.div-home {
+  box-sizing: border-box;
+  /* background-image: url("./Components/Middle/images/Home.jpg");*/
+  background-color: rgba(16, 5, 5, 0.995);
+  ;
+}
+
+.div-home .Home {
+  padding: 20px;
+  display: flex;
+}
+
+.div-home .Home .box {
+  color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(16, 5, 5, 0.995);
+  ;
+  margin: 0px 20px;
+  transition: all 1s ease-in-out;
+
+}
+
+
+.div-home .Home .box h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.div-home .Home .home-left p {
+  font-size: medium;
+  color: white;
+}
+
+.div-home .Home .home-left h1 tag {
+  font-size: 5.8rem;
+  color: rgb(39, 221, 39);
+}
+
+
+
+#sideImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-home .Home .home-right img{
+  width: 250px;
+  transition: all 1s ease-in-out;
+ 
+  box-shadow:   0px 0px 100px 1px rgba(190, 21, 21, 0.826);
+}
+
+.div-home .Home .home-right img:nth-child(1) {
+  
+  border-radius: 5px 0px 5px 0px;
+}
+.div-home .Home .home-right img:nth-child(3) {
+  
+  border-radius: 0px 5px 0px 5px;
+}
+
+.div-home .Home .home-right img:hover {
+  width: 300px;
+  opacity: 1;
+  transform: rotate(360deg);
+  box-shadow: 0px 0px 0px 20px rgb(255, 251, 251);
+}
+
+/* Footer */
+.footer {
+  height: 50px;
+  position: absolute;
+  left: 0px;
+}
+.footer div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50px;
+}
+.footer div .yr-tag {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .div-home .Home{
+   display: grid;
+  }
+  .div-home .Home  .home-right .sideImgs{
+    display: flex;
+    flex-direction: column;
+   
+   }
+   .div-home .Home  .home-right .sideImgs  img{
+    margin: 10px 0px;
+   }
+   .div-home .Home .home-left  {
+   width: 100%;
+   }
+  .Navbar .left_block {
+    display: none;
+  }
+
+  .Navbar .nav-btn {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: grid;
+    justify-content: space-around;
+    padding: 2px;
+    position: absolute;
+    right: 10px;
+
+  }
+
+  .Navbar .nav-btn .div {
+    width: 48px;
+    height: 2px;
+    border-radius: 10%;
+    background-color: white;
+    transition-duration: 2s;
+  }
+
+  .Navbar .nav-btn .div .div1 {
+    transition-duration: 1s;
+  }
+
+  .ani-div1 {
+    transform: rotate(30);
+  }
+
+
 }

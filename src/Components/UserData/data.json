@@ -1,0 +1,13 @@
+[
+   {
+        "Name": "@User name ",
+        "Email": "Email@gmail.com",
+        "PhoneNumber": "0123456987",
+        "About": "type your self here to create resume ..........",
+        "web-tittle" : "Jitendra prajapat",
+        "Home-descriptions" : {
+         "Tittle" : "Are you looking for freelancer",
+         "descriptions":"you choose right place and right freelancer ....<br /> Join our community follow on social media "
+        }
+    }
+]
