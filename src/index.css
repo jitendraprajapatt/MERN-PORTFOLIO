@@ -6,8 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  background-color: rgba(16, 5, 5, 0.995);
   font-family: 'Lucida Sans';
+  scroll-behavior: smooth;
+ 
 }
 
 code {

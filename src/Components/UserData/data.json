@@ -1,13 +1,15 @@
 [
    {
-        "Name": "@User name ",
-        "Email": "Email@gmail.com",
-        "PhoneNumber": "0123456987",
-        "About": "type your self here to create resume ..........",
-        "web-tittle" : "Jitendra prajapat",
-        "Home-descriptions" : {
-         "Tittle" : "Are you looking for freelancer",
-         "descriptions":"you choose right place and right freelancer ....<br /> Join our community follow on social media "
+        "Name": "JITENDRA PRAJAPAT",
+        "Email": "pjiu9221@gmail.com",
+        "PhoneNumber": "7014932487",
+        "Bio": "I'm currently 3rd year student at M.B.M University . currently pursuing degree of Petroleum engineering but i also interested  in computer science so i learn programing , web developing , app and lot of things related to computer science. ",
+        "Link" : {
+            "instagram" : "https://www.instagram.co" ,
+            "facebook" : "https://www.facebook.com/" ,
+            "twitter" : "https://twitter.com/home" ,
+            "linkedin" : "https://www.linkedin.com/feed/" ,
+            "youtube" : "https://www.youtube.com/" 
         }
     }
 ]

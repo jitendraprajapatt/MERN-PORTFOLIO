@@ -6,12 +6,11 @@ import About from './Components/Middle/About';
 import Projects from './Components/Middle/Projects';
 import Contact from './Components/Middle/Contact';
 import Navbar from './Components/Header';
-
+import Footer from './Components/Footer'
 
 
 function App() {
-  
-  
+  const currentYr = new Date().getFullYear();
 
   return (
     <>
@@ -22,7 +21,6 @@ function App() {
         <Route exact path='/Projects' element={<Projects />} />
         <Route exact path='/Contact' element={<Contact />} />
       </Routes>
-     
     </>
   );
 }

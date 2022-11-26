@@ -1,0 +1,66 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+.about .about-box{
+    color: rgb(0, 0, 0);
+    width: 50%;
+    display: grid;
+    padding: 10px;
+    transition: all 0.5s ease-in;
+    border-radius: 5px;
+    background-color:rgb(248, 247, 247) ;
+}
+
+.about .about-box .dp-img{
+    display: flex;
+    justify-content: center;
+   align-items: center
+
+}
+.about .about-box .dp-img .Intro-box{
+    width: 100%;
+   padding: 0px 5px ;
+   line-height: 4px;
+}.about .about-box .dp-img .Intro-box p:nth-child(1){
+   font-weight: bolder;
+ }
+.about .about-box .dp-img .Intro-box p:nth-child(2){
+   color: gray;
+}
+.about .about-box .dp-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.6s ease-in;
+}
+.about .about-box .dp-img img:hover{
+  scale: 3.5;
+}
+.about .about-box .bio{
+   display: inline;
+}
+.about .about-box .fav-Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+.about .about-box .fav-Icon a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(78, 76, 76); 
+}
+.about .about-box .fav-Icon a i:hover{
+    color: rgba(10, 10, 244, 0.788);
+}
+
+@media only screen and (max-width: 400px) {
+   
+    .about .about-box {
+        width: 250px;
+    }
+  }

@@ -1,0 +1,85 @@
+.Navbar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+.Navbar h1 {
+  background: -webkit-linear-gradient(#eee, rgb(63, 62, 62));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  word-spacing: 4px;
+  font-weight: bolder;
+  padding: 0px 20px;
+}
+
+.Navbar nav,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.Navbar nav ul li {
+  list-style: none;
+  display: block;
+  padding: 0px 20px;
+}
+
+.Navbar nav ul li .anchor {
+  text-decoration: none;
+  color: rgb(251, 249, 249);
+  font-size: larger;
+  transition-duration: 0.3s;
+
+}
+
+.Navbar nav ul li .anchor:hover,
+.Navbar nav ul li .anchor.active {
+  color: rgb(209, 196, 196);
+}
+.Navbar nav #mobile{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar nav #mobile i {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    display: none;
+  }
+
+  .Navbar nav #mobile i {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  .mobile-ul {
+    position: absolute;
+
+    right: 0px;
+    top: 80px;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    background-color: rgb(12, 12, 12);
+    transition: 0.5s ease-in;
+  }
+  li{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+}
