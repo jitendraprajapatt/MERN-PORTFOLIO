@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
    justify-content: center;
    align-items: center;
+   height: 100%;
  padding: 20px;
 }
 .home .home-left{

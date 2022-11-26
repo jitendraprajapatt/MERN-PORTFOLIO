@@ -71,15 +71,14 @@ ul {
     right: 0px;
     top: 80px;
     width: 50%;
-    height: 100%;
+    height: 50%;
     display: grid;
     background-color: rgb(12, 12, 12);
     transition: 0.5s ease-in;
   }
   li{
     width: 100%;
-    height: 100px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 4px 0px;
   }
 }

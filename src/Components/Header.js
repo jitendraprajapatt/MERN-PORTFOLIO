@@ -4,7 +4,7 @@ import './Header.css'
 
 
 function Navbar() {
-const [isMobile , setMobile] = useState(false) ;
+    const [isMobile, setMobile] = useState(false);
 
     return (
 
@@ -16,28 +16,28 @@ const [isMobile , setMobile] = useState(false) ;
                 </h1>
             </div>
             <nav>
-            <div id='mobile'>
-           
-                <i onClick={()=>{setMobile(!isMobile?true :false); }} className={ isMobile ? 'fa-solid fa-circle-xmark' : 'fa-solid fa-bars'}></i>
+                <div id='mobile'>
+
+                    <i onClick={() => { setMobile(!isMobile ? true : false); }} className={isMobile ? 'fa-solid fa-circle-xmark' : 'fa-solid fa-bars'}></i>
                 </div>
-                <ul onClick={()=> setMobile(false)} className={isMobile ? 'mobile-ul' : ''}>
+                <ul onClick={() => setMobile(false)} className={isMobile ? 'mobile-ul' : ''}>
                     <li  >
-                        <NavLink className="anchor"  to="/" > Home </NavLink>
+                        <NavLink className="anchor" to="/" > Home </NavLink>
                     </li>
                     <li>
-                        <NavLink className="anchor"  to="/About"> About</NavLink>
+                        <NavLink className="anchor" to="/About"> About</NavLink>
                     </li>
                     <li>
                         <NavLink className="anchor" to="/Projects">Projects</NavLink>
                     </li>
                     <li>
-                        <NavLink className="anchor"  to="/Contact">Contact</NavLink>
+                        <NavLink className="anchor" to="/Contact">Contact</NavLink>
                     </li>
                 </ul>
-               
-               
+
+
             </nav>
-           
+
 
 
         </div>
